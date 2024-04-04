@@ -73,3 +73,115 @@ nav a{
     width: 275px;
 }
 
+
+@media screen and (max-width : 580px){
+    .logo{
+        font-size: 1.8rem; 
+    }
+    .searching
+{
+    font-size: 1rem;
+   
+    padding: 2px 5px;
+    width: 150px;
+    
+}
+.searchBut{
+    font-size: 1rem;
+    padding: 3px;
+}
+}
+
+@media screen and (max-width : 400px)
+{
+    .logo{
+        font-size: 1.2rem; 
+    }
+    .searching
+{
+    font-size: .9rem;
+    padding: 2px 5px;
+    width: 100px;
+}
+.searchBut{
+    font-size: .9rem;
+    padding: 1px;
+}
+.blogContainer
+{
+    padding: 0 30px;
+}
+.blogCard
+{
+    width: 250px;
+}
+.blogCard img{
+    width: 225px;
+}
+nav
+{
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+}
+@media screen and (max-width : 300px)
+{
+    .blogContainer
+{
+    padding: 0 20px;
+}
+.blogCard
+{
+    width: 200px;
+}
+.blogCard img{
+    width: 175px;
+}
+nav
+{
+  flex-direction: column;
+  gap: 10px;
+   
+}
+.logo{
+    font-size: 2rem; 
+}
+.searching
+{
+font-size: 1.1rem;
+padding: 2px 5px;
+width: 130px;
+}
+.searchBut{
+font-size: 1.1rem;
+padding: 3px;
+}
+}
+@media screen and (max-width : 230px)
+{
+    .logo{
+        font-size: 1.5rem; 
+    }
+    .searching
+    {
+    font-size: .9rem;
+    padding: 2px 5px;
+    width: 110px;
+    }
+    .searchBut{
+    font-size: .9rem;
+    padding: 3px;
+    }
+    .blogCard
+{
+    width: 170px;
+}
+.blogCard img{
+    width: 145px;
+}
+.blogCard h2
+{
+    font-size: 20px;
+}
+}
