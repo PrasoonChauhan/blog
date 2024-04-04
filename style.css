@@ -94,18 +94,24 @@ nav a{
 
 @media screen and (max-width : 400px)
 {
+    nav
+{
+  flex-direction: column;
+  gap: 10px;
+   
+}
     .logo{
-        font-size: 1.2rem; 
+        font-size: 2rem; 
     }
     .searching
 {
-    font-size: .9rem;
+    font-size: 1.3rem;
     padding: 2px 5px;
-    width: 100px;
+    width: 170px;
 }
 .searchBut{
-    font-size: .9rem;
-    padding: 1px;
+    font-size: 1.3rem;
+    padding: 2px;
 }
 .blogContainer
 {
