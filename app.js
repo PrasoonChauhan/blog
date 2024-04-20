@@ -50,8 +50,8 @@ function cardDisplay(articles)
  function apiFetching()
 {
  const url = `https://newsapi.org/v2/top-headlines?country=us&pageSize=10&apiKey=${apiKey}`;
-const response = await fetch(url);
-const data = await response.json();
+const response = fetch(url);
+const data = response.json();
 console.log(data.articles);
 cardDisplay(data.articles);
 
