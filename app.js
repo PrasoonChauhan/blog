@@ -47,7 +47,7 @@ function cardDisplay(articles)
 
 
 
-async function apiFetching()
+ function apiFetching()
 {
  const url = `https://newsapi.org/v2/top-headlines?country=us&pageSize=10&apiKey=${apiKey}`;
 const response = await fetch(url);
